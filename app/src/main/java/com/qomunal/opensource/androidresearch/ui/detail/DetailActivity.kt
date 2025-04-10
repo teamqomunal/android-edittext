@@ -1,9 +1,12 @@
 package com.qomunal.opensource.androidresearch.ui.detail
 
 import android.os.Bundle
+import android.text.InputFilter
+import android.text.InputFilter.AllCaps
 import androidx.activity.viewModels
 import com.qomunal.opensource.androidresearch.common.base.BaseActivity
 import com.qomunal.opensource.androidresearch.databinding.ActivityDetailBinding
+
 
 /**
  * Created by faisalamircs on 13/01/2024
@@ -32,7 +35,7 @@ class DetailActivity : BaseActivity<ActivityDetailBinding>() {
 
     override fun initUI() {
         binding.apply {
-
+            etText.filters = arrayOf<InputFilter>(AllCaps())
         }
     }
 

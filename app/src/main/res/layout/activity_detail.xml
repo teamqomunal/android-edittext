@@ -4,11 +4,12 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <TextView
-        android:id="@+id/tv_text"
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/et_text"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="This is Detail Activity"
+        android:inputType="textCapCharacters"
+        android:textAllCaps="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
