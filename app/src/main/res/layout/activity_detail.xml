@@ -8,7 +8,7 @@
         android:id="@+id/et_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textCapCharacters"
+        android:inputType="textVisiblePassword|textCapCharacters"
         android:textAllCaps="true"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
